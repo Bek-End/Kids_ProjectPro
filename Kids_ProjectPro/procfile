@@ -1,1 +1,2 @@
 web: gunicorn Kids_ProjectPro.wsgi --log-file -
+heroku config:set DISABLE_COLLECTSTATIC=1
